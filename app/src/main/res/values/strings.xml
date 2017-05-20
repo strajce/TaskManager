@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="tasks_hint">Without Task</string>
+    <string name="NewTask">Novi Zadatak</string>
+    <string name="Statistics">Statistika</string>
+    <string name="NameOfTask">Ime zadatka</string>
+    <string name="Time">Vremenski period isticanja zadatka</string>
+    <string name="Discription">Opis zadatka</string>
+    <string name="AddTask">Dodaj</string>
+    <string name="Quit">Otkaži</string>
+    <string name="data">Set Data</string>
+    <string name="time">Set Time</string>
+    <string name="box">Remind Me in 15 minutes</string>
+    <string name="empty_list">List is empty</string>
+    <string name="high">The high priority level.</string>
+    <string name="medium">The medium priority level.</string>
+    <string name="low">The low priority levele.</string>
+    <string name="empty_view">Popunite sva polja.</string>
+    <string name="danas">Danas.</string>
+    <string name="sutra">Sutra.</string>
+    <string name="ponedeljak">Ponedeljak.</string>
+    <string name="utorak">Utorak.</string>
+    <string name="sreda">Sreda.</string>
+    <string name="cetvrtak">Cetvrtak.</string>
+    <string name="petak">Petak.</string>
+    <string name="subota">Subota.</string>
+    <string name="nedelja">Nedelja.</string>
+    <string name="ok">Dobar rezultat.</string>
+    <string name="red">Crveno</string>
+    <string name="yellow">Zuto</string>
+    <string name="green">Zeleno</string>
+</resources>
+

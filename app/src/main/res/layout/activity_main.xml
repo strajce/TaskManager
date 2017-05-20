@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    android:orientation="vertical"
+    tools:context="rtrk.pnrs1.ra198_2013.taskmanager.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+        <!--<TextView-->
+            <!--android:id="@+id/emptyView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="@string/empty_list" />-->
+
+        <ListView
+            android:id="@+id/taskovi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/MainLayout">
+
+        </ListView>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/MainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lista"
+        android:layout_alignParentStart="true">
+        <!-- Dugmad sam pravio na sajtu "http://angrytools.com/android/button/"-->
+
+        <Button
+            android:id="@+id/NewTask"
+            android:layout_weight="2"
+            android:text="@string/NameOfTask"
+            android:textColor="@color/letterColor"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/Statistics"
+            android:layout_weight="2"
+            android:text="@string/Statistics"
+            android:textColor="@color/letterColor"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
