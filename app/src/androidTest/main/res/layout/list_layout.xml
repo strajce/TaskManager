@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/lightblue">
+
+    <Button
+        android:id="@+id/priorityBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/taskDate"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="250dp"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/taskDone"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="300dp"
+            android:layout_below="@id/taskDate" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReminde"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+
+</RelativeLayout>
